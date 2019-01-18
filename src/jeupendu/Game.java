@@ -79,7 +79,6 @@ public class Game {
 		Scanner reader = new Scanner(System.in);
 		
 		boolean[] check = new boolean[stringToCharArray(wordToGuess).length];
-		System.out.println("Welcome to the hangman game");
 		System.out.println("Please enter one character at the time until the word is discovered.");
 		while(gameOver(check)) {
 			display(stringToCharArray(wordToGuess), check);

@@ -10,10 +10,12 @@ public class Application {
 		System.out.println("Welcome to the hangman Game.");
 		System.out.println("Please type in a word for your friend to guess, then let him/her player.");
 		System.out.println("Enjoy the game !");
-		String userChoice = sc.toString();
-
-		Game partie  = new Game();
+		String userChoice = sc.next();
+		
+		Game partie = new Game();
 		partie.startGame(userChoice);
-	}
+			
+		}
 
-}
+		
+	}
