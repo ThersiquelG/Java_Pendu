@@ -1,0 +1,3 @@
+[remote "origin"]
+	url = https://github.com/ThersiquelG/Java_Pendu
+	fetch = +refs/heads/*:refs/remotes/origin/*
